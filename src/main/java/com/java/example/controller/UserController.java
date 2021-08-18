@@ -18,7 +18,7 @@ public class UserController {
     @RequestMapping(value = "/api/v1/test", method = RequestMethod.GET)
     //@GetMapping("/api/v1/test")
     public ResponseEntity<?> getInfo() {
-        return ResponseEntity.ok("hello");
+        return ResponseEntity.ok("hellojj");
 
 
     }
